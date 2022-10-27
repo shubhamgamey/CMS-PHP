@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-include 'includes/adminHeader.php'
+include 'includes/adminHeader.php';
 ?>
 
 <body>

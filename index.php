@@ -17,10 +17,8 @@ include 'includes/navigation.php';
                 <small>Frontend</small>
             </h1>
             <?php
-            global $connection;
-            $query = 'SELECT * FROM posts';
-            $res = mysqli_query($connection, $query);
-            while ($row = mysqli_fetch_assoc($res)) {
+            $posts = fetch_posts();
+            while ($row = mysqli_fetch_assoc($posts)) {
             ?>
                 <!-- First Blog Post -->
                 <h2>

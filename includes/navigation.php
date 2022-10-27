@@ -1,5 +1,6 @@
 <?php
-include 'includes/db.php'
+include 'includes/db.php';
+include 'includes/functions.php';
 ?>
 
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -11,7 +12,7 @@ include 'includes/db.php'
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="./">Catify</a>
+            <a class="navbar-brand" href="./">Tech Blog</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
