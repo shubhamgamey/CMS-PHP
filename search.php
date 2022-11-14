@@ -6,7 +6,7 @@ include 'includes/navigation.php';
 <div class="container">
     <div class="row">
         <!-- Blog Entries Column -->
-        <div class="col-md-8">
+        <div class="col-md-8">  
             <h1 class="page-header">
                 <small>Search Results</small>
             </h1>

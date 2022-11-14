@@ -2,7 +2,6 @@
 <html lang="en">
 <?php
 include 'includes/adminHeader.php';
-
 ?>
 
 <body>

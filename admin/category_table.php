@@ -28,11 +28,7 @@
             <?php
                 }
             }
-
             ?>
-
-
         </tbody>
     </table>
-
 </div>

@@ -49,11 +49,7 @@ include 'includes/navigation.php';
         ?>
 
     </div>
-
     <hr>
-
-
     <?php
     include 'includes/footer.php'
-
     ?>

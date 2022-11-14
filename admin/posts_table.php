@@ -30,14 +30,6 @@
                         <td><?php echo $row["post_tags"] ?></td>
                         <td><?php echo $row["post_comment_count"] ?></td>
                         <td><?php echo $row["post_date"] ?></td>
-                        <!-- <td>
-                            <a type="btn btn-link" class="close" aria-label="Close" role="button" href='categories.php?id=<?php echo $row['cat_id'] ?>'>&times;
-                            </a>
-                        </td>
-                        <td>
-                            <a type="btn btn-link" class="close" aria-label="Close" role="button" href='categories.php?update=<?php echo $row['cat_id'] ?>'>&#9998;
-                            </a>
-                        </td> -->
                     </tr>
             <?php
                 }

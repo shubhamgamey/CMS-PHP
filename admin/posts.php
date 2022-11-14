@@ -26,8 +26,28 @@ include 'includes/adminHeader.php';
                             Welcome to Admin
                             <small>Author</small>
                         </h1>
-                        
-                        <?php include 'posts_table.php' ?>
+
+                        <?php
+
+                        if (isset($_GET['source'])) {
+                            $source = $_GET['source'];
+                        } else {
+                            $source = '';
+                        }
+                        switch ($source) {
+                            case 'viewall':
+                                include 'posts_table.php';
+                                break;
+                            case 'addpost':
+                                include 'add_post.php';
+                                break;
+
+                            default:
+                                # code...
+                                break;
+                        }
+
+                        ?>
                     </div>
 
 
